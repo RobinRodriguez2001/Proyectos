@@ -4,7 +4,7 @@ using namespace std;
 
 
 class Persona {
-	//atrivutos
+	//atributos
 	protected :	string nombres, apellidos, direccion, telefono, fecha_nacimiento;
 		
 		//constructor
@@ -15,7 +15,7 @@ class Persona {
 				nombres = nom;
 				apellidos = ape;
 				direccion = dir;
-				telefonos = tel;
+				telefono = tel;
 				fecha_nacimiento = fe_na;
 			}
 	
