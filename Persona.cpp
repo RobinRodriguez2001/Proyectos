@@ -4,7 +4,7 @@ using namespace std;
 
 
 class Persona {
-	//atributos
+	//atrivutos
 	protected :	string nombres, apellidos, direccion, telefono, fecha_nacimiento;
 		
 		//constructor
@@ -15,14 +15,18 @@ class Persona {
 				nombres = nom;
 				apellidos = ape;
 				direccion = dir;
-				telefono = tel;
+				telefonos = tel;
 				fecha_nacimiento = fe_na;
 			}
 	
 	//metodos
 	void crear();
-	void leer();
+	
+	void leer(){
+		cout<<"\nMetodo ingresado...";
+	};
 	void actualizar();
+	
 	void borrar();
 		
 };
