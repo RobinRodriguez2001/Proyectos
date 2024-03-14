@@ -21,8 +21,12 @@ class Persona {
 	
 	//metodos
 	void crear();
-	void leer();
+	
+	void leer(){
+		cout<<"\nMetodo ingresado...";
+	};
 	void actualizar();
+	
 	void borrar();
 		
 };
